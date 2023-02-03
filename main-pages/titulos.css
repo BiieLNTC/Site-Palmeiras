@@ -1,0 +1,128 @@
+@charset "UFT-8";
+
+:root {
+    --cor0: #006437;
+    --cor1: #00532E;
+    --cor2: #9B8542;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #e6e6e6;
+}
+
+#mundial {
+    width: 1583px;
+    height: 300px;
+}
+
+article {
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    padding: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#libertadores {
+    top: -130px;
+    left: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.titulos1 {
+    height: 100px;
+}
+
+#mercosul {
+    top: -95px;
+    position: relative;
+    left: 400px;
+    height: 200px;
+}
+
+.titulos2 {
+    height: 100px;
+    
+}
+
+#recopa {
+    position: relative;
+    height: 200px;
+    left: 345px;
+    top: -100px;
+}
+
+.titulos3 {
+    height: 90px;
+}
+
+#brasileiro {
+    position: relative;
+    height: 200px;
+    left: 345px;
+    top: -210px;
+}
+
+.titulos4 {
+    height: 200px;
+}
+
+#copabrasil {
+    position: relative;
+    height: 250px;
+    left: 345px;
+    top: -149px;
+}
+
+.titulos5 {
+    height: 150px;
+}
+
+#copacampeao {
+    position: relative;
+    height: 200px;
+    left: 330px;
+    top: -80px;
+}
+
+.titulos6 {
+    height: 120px;
+}
+
+#paulista {
+    position: relative;
+    height: 250px;
+    left: 320px;
+    top: -250px;
+}
+
+#list_paulista {
+    columns: 2;
+}
+
+.titulos7 {
+    height: 270px;
+}
+
+#riosp {
+    position: relative;
+    height: 200px;
+    left: 340px;
+    top: -150px;
+}
+
+.titulos8 {
+    height: 150px;
+}
+
+.titulos9 {
+    text-align: center;
+}

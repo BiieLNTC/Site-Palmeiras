@@ -1,0 +1,17 @@
+#titulo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1583px;
+    height: 593px;
+    background-image: url(https://sep-bucket-prod.s3.amazonaws.com/wp-content/uploads/2020/03/09151328/imagem-destaque-Parceiros.jpeg);
+    background-color: green;
+}
+
+#titulo h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 5px 2px 3px rgba(0, 0, 0, 0.308);
+    padding-left: 300px;
+    padding-top: 500px;
+    
+}

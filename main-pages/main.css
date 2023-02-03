@@ -1,0 +1,183 @@
+@charset "UFT-8";
+
+:root {
+    --cor0: #006437;
+    --cor1: #00532E;
+    --cor2: #9B8542;
+    --cor3: #e6e6e6;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+===========================
+          CABEÇALHO
+===========================
+*/
+
+header {
+    background-color: #00532E;
+    color: white;
+
+}
+
+
+.maior_campeao {
+    float: left;
+    width: 250px;
+    padding-top: 2.5px;    
+}
+
+.puma_logo {
+    float: right;
+    padding: 15px;
+    margin-top: -35px;
+    margin-right: 40px;
+}
+
+.crefisa_logo {
+    float: right;
+    padding: 15px;
+    margin-top: -35px;
+
+}
+.fam_logo {
+    float: right;
+    padding: 15px;
+    margin-top: -32px;
+
+}
+p {
+    padding: 5px;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 50px;
+    font-weight: lighter;
+}
+
+span {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*
+===================================
+            NAV BAR
+===================================
+
+
+/*Menu Normal*/
+nav {
+    background-image: url('/imagens/quadrados.jpg');
+    max-height: 210px;
+}
+
+
+.img {
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#dp-menu ul {
+    list-style-type: none;
+    padding-top: 0px;    
+    text-align: center;
+}
+
+#dp-menu ul {
+    background-image: linear-gradient(to left, #002A20,#002A20, #003320);
+}
+
+#dp-menu ul li {
+    display: inline;
+    position: relative;
+
+}
+
+#dp-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+#dp-menu ul li a:hover {
+    background-color: white;
+    color: #00532E;
+}
+
+/*SUB MENU*/
+
+#dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+#dp-menu > ul > li:hover > ul {
+    display: block;
+}
+
+#dp-menu ul ul {
+    width: 115px;
+}
+
+#dp-menu > ul > ul > li > a {
+    display: block;
+    margin: 0px;
+}
+
+/*Faixa Branca*/
+
+#branco {
+    background-color: white;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #9B8542;
+}
+
+/*
+==========================================
+footer
+==========================================
+*/
+
+footer {
+    background-color: var(--cor0);
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+    padding: 6px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*
+############################################################
+PÁGINA INICIAL
+############################################################
+*/
+
+article .img2 {
+    max-width: 1580px;
+    padding: -10px;
+    margin-left: 1px;
+    margin-bottom: -4px;
+}

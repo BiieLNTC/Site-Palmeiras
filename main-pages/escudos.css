@@ -1,0 +1,67 @@
+#faixa {
+    color: white;
+    background-image: url(/imagens/faixa-campo.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    font-size: 125%;
+    margin-top: 30px;
+    border-bottom: 5px solid var(--cor2);
+    border-top: 5px solid var(--cor2);
+}
+
+#texto-escudo {
+    margin: auto;
+    width: 900px;
+    background-color: rgba(245, 245, 245, 0.37);
+
+}
+
+#texto-escudo h1 {
+    background-color: white ;
+}
+
+.escrita {
+    height: 250px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.062);
+}
+
+#texto-escudo h1,h3 {
+    color: var(--cor1);
+    padding: 10px;
+}
+
+#texto-escudo p {
+    position: relative;
+    text-align: justify;
+    width: 600px;
+    top: -200px;
+    left: 200px;
+}
+
+.titulo {
+    position: relative;
+    width: 600px;
+    top: -200px;
+    left: 200px;
+}
+
+#texto-escudo img {
+    width: 180px;
+    padding: 10px;
+}
+
+#conserto {
+    margin-bottom: 300px;
+    border-bottom: 5px solid var(--cor2);
+    border-top: 5px solid var(--cor2);
+}
+
+main {
+    height: 100%;
+}
+
+footer {
+    margin-top: 65px;
+}
